@@ -12,3 +12,128 @@
 Devices used different chips and operating systems. A C/C++ program had to be recompiled — often rewritten — for each one.
 
 Compile once into portable bytecode. Any device with a Java Virtual Machine (JVM) can run it — no rewrite needed.
+### 01\. INTRODUCTION TO JAVA
+
+### How Java evolved: 30 years of steady upgrades
+
+### Java Versions and Their Features
+
+1\. Java 1.0 – January 1996
+
+* JVM, core libraries, applets.
+
+* Introduced the concept of "Write Once, Run Anywhere."
+
+2\. Java 5 – September 2004
+
+\- Generics, annotations, enums, enhanced for-loop.
+
+3\. Java 8 – May 2014
+
+\- Lambda expressions, Stream API, new Date/Time API.
+
+4\. Java 11 – September 2018
+
+* First LTS of the 6-month era.
+
+* Standard HTTP Client.
+
+5\. Java 17 – September 2021
+
+* Records, sealed classes, text blocks.
+
+* Spring Boot 3 baseline.
+
+6\. Java 21 – September 2023
+
+\- Virtual threads, pattern matching for switch, record patterns.
+
+7\. Java 25 – September 2025
+
+* Compact source files.
+
+* Scoped values.
+
+* Compact object headers.
+
+### Important Point
+
+LTS (Long-Term Support): A Java version that receives long-term updates and support.
+
+Remember: Java continuously evolved by introducing new features, improving performance, security, and simplifying programming.
+Data Types in JAVA
+1)Numeric Data Types
+integer:
+int,short,long,byte.
+floating point:
+float,Double
+2)Non-Numeric Data Types:
+  Boolean,Char
+3)Non-Primitive Data Types:
+  String,Array
+
+    
+variables rules
+1. Must start with a letter, underscore (_) or dollar sign ($).
+2. Cannot start with a number.
+3. Cannot contain spaces.
+4. Special characters are not allowed, except _ and $.
+5. Java keywords cannot be used as variable names.
+6. Variable names are case-sensitive.
+7. Can contain letters, digits, underscores and dollar signs after the first character.
+8. Variable names can be of any length.
+
+
+Method Explanation
+
+| Scanner method   | Example     | Return type |
+| ---------------- | ----------- | ----------- |
+| nextInt()        | 25          | int         |
+| nextLong()       | 9876543210L | long        |
+| nextFloat()      | 85.5f       | float       |
+| nextDouble()     | 25000.75    | double      |
+| next()           | Vehu        | String      |
+| nextLine()       | Hello Java  | String      |
+| next().charAt(0) | A           | char        |
+| nextBoolean()    | true        | boolean     |
+
+
+import java.util.Scanner;
+
+public class firstpro {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int age;
+        String name;
+        float marks;
+        char result;
+        long total_marks;
+
+        System.out.print("Enter age: ");
+        age = sc.nextInt();
+        sc.nextLine();
+
+        System.out.print("Enter name: ");
+        name = sc.nextLine();
+
+        System.out.print("Enter marks: ");
+        marks = sc.nextFloat();
+
+        System.out.print("Enter grade: ");
+        result = sc.next().charAt(0);
+
+        System.out.print("Enter total marks: ");
+        total_marks = sc.nextLong();
+
+        System.out.println("\n--- Student Details ---");
+        System.out.println("Age: " + age);
+        System.out.println("Name: " + name);
+        System.out.println("Marks: " + marks);
+        System.out.println("Grade: " + result);
+        System.out.println("Total Marks: " + total_marks);
+
+        sc.close();
+    }
+}
