@@ -133,6 +133,10 @@ public class firstpro {
         System.out.println("Marks: " + marks);
         System.out.println("Grade: " + result);
         System.out.println("Total Marks: " + total_marks);
+ sc.close();
+    }
+}
+
 2.PROGRAM:
 import java.util.Scanner;
 public class file2 {    
@@ -160,6 +164,4 @@ public class file2 {
     }
 }
 
-        sc.close();
-    }
-}
+       
