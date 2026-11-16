@@ -97,7 +97,7 @@ Method Explanation
 | next().charAt(0) | A           | char        |
 | nextBoolean()    | true        | boolean     |
 
-
+1.PROGRAM:
 import java.util.Scanner;
 
 public class firstpro {
@@ -133,6 +133,32 @@ public class firstpro {
         System.out.println("Marks: " + marks);
         System.out.println("Grade: " + result);
         System.out.println("Total Marks: " + total_marks);
+2.PROGRAM:
+import java.util.Scanner;
+public class file2 {    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int peHycash;
+        String employee_name;
+        int tiffin;
+        int dinner;
+        int total;
+        int remaining_balance;
+        System.out.print("Enter peHycash: ");
+        peHycash = sc.nextInt();
+        System.out.print("Enter employee name: ");
+        employee_name = sc.next();
+        System.out.print("Enter tiffin: ");
+        tiffin = sc.nextInt();
+        System.out.print("Enter dinner: ");
+        dinner = sc.nextInt();
+        total =  tiffin + dinner;
+        System.out.println("Total: " + total);
+        remaining_balance = peHycash - total;
+        System.out.println("Remaining Balance: " + remaining_balance);
+        sc.close();
+    }
+}
 
         sc.close();
     }
