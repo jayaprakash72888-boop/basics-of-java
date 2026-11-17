@@ -409,4 +409,34 @@ public class file8 {
         sc.close();
     }
 }
-       
+       PROGRAM 9:
+import java.util.Scanner;
+public class file9{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter first number: ");
+        int first_number=sc.nextInt();
+        System.out.println("Enter second number: ");
+        int second_number=sc.nextInt();
+        System.out.println("Enter case number: ");
+        int case_number=sc.nextInt();
+        switch(case_number){
+            case 1:
+                System.out.println("Addition of two numbers is: "+(first_number+second_number));
+                break;
+            case 2:
+                System.out.println("Subtraction of two numbers is: "+(first_number-second_number)); 
+                break;
+            case 3:
+                System.out.println("Multiplication of two numbers is: "+(first_number*second_number));
+                break;
+            case 4:
+                System.out.println("Division of two numbers is: "+(first_number/second_number));
+                break;
+            default:
+                System.out.println("Invalid case number");
+        sc.close();
+            
+        }
+    }
+}
