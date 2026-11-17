@@ -164,4 +164,43 @@ public class file2 {
     }
 }
 
+
+=>CONTROL STATEMENTS:
+1.CONDITIONAL:
+   *if
+   *if else
+   *else if laddder
+   *nested if
+   *switch
+2.LOOPING:
+   *for
+   *while
+   *do while
+3.JUMPING
+   *continue
+   *break
+   *return
+
+PROGRAM3:
+import java.util.Scanner;
+
+public class file3 {
+    public static void main(String[] args) {
+
+        Scanner obj = new Scanner(System.in);
+
+        System.out.println("Enter first number: ");
+        int a = obj.nextInt();
+
+        System.out.println("Enter second number: ");
+        int b = obj.nextInt();
+
+        if (a <= b) {
+            System.out.println("Condition is true");
+        }
+
+        obj.close();
+    }
+}
+
        
