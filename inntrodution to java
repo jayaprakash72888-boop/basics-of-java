@@ -202,5 +202,161 @@ public class file3 {
         obj.close();
     }
 }
+PROGRAM4:
+import java.util.Scanner;
+public class file4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter first number: ");
+        int a= sc.nextInt();
+        
+        if(a>20&&a<30){
+            System.out.println("a is greater than 20");
+        }
+        else if(a>30&&a<40){
+            System.out.println("a is greater than 30");
+        }
+        else if(a>40&&a<50){
+            System.out.println("a is greater than 40");
+        }
+        else if(a>50&&a<60){
+            System.out.println("a is greater than 50");
+        }
+        else if(a>60&&a<70){
+            System.out.println("a is greater than 60");
+        }
+        else if(a>70&&a<80){
+            System.out.println("a is greater than 70");
+        }
+        else if(a>80&&a<90){
+            System.out.println("a is greater than 80");
+        }
+        else if(a>90&&a<100){
+            System.out.println("a is greater than 90");
+        }
+        else if(a>100){
+            System.out.println("a is greater than 100");
+        }
+        else{
+            System.out.println("a is smaller");
+        }
+        sc.close();
+    }
+}
+PROGRAM 5:
+import java.util.Scanner;
+public class file5 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int value1=sc.nextInt();
+        if(value1>=20){
+            if(value1>20){
+                System.out.println("condition2");
+            }
+            else{
+                System.out.println("condition1");
+            }
+            
+        }
+        sc.close();
+    }
+}
+PROGRAM 6:
+import java.util.Scanner;
+public class file6{
+    public static void main(String[] args){
+        System.out.println("Enter a number: ");
+        Scanner sc = new Scanner(System.in);
+        int value1=sc.nextInt();
+        switch(value1){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid input");
+        }
+        sc.close();
+    }
+    
+}
+PROGRAM 7:
+import java.util.Scanner;
+public class file7 {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int value1=sc.nextInt();
+        switch(value1){
+            case 1:
+                System.out.println("civil");
+                break;
+            case 2:
+                System.out.println("mechanical");
+                break;
+            case 3:
+                System.out.println("electrical");
+                break;
+            case 4:
+                System.out.println("electronics");
+                break;
+            case 5:
+                System.out.println("computer");
+                break;
+            case 6:
+                System.out.println("information technology");
+                break;
+            case 7:
+                System.out.println("chemical");
+                break;
+            case 8:
+                System.out.println("biotechnology");
+                break;
+            case 9:
+                System.out.println("MBA");
+                break;
+            case 10:
+                System.out.println("MCA"); 
+                break;
+            case 11:
+                System.out.println("M.Tech");
+                break;
+            case 12:
+                System.out.println("PhD");
+                break;
+            case 13:
+                System.out.println("M.Sc");
+                break;
+            case 14:
+                System.out.println("B.Sc");
+                break;
+            case 15:
+                System.out.println("B.Tech");
+                break;
 
+
+            default:
+                System.out.println("Invalid input");
+        }
+                sc.close();
+    }
+        }
        
