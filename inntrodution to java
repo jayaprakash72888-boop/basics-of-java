@@ -440,3 +440,38 @@ public class file9{
         }
     }
 }
+
+OOPS CONCEPTS:-
+*TYPES OF CLASSES
+1.concrete class
+2.abstract class
+3.final class
+4.static nested class
+5.inner class
+6.local class
+7.anonymous class
+8.enum class
+9.interface
+*ACCESS MODIFIERS:-
+1.Public
+2.private
+3.protected
+4.default
+*FUNCTIONS:-
+1.no arguments
+2.arguments with no return value
+3.no arguments and with return value
+4.arguments with return value
+
+
+
+
+
+
+
+
+
+
+
+
+
